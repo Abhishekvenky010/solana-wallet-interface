@@ -31,7 +31,7 @@ bash
 Copy
 Edit
 # Clone the repository
-git clone 
+git clone https://github.com/Abhishekvenky010/solana-wallet-interface.git
 cd solana-wallet-interface
 
 # Install dependencies (if using npm)
