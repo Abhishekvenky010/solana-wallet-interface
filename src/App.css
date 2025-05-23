@@ -1,0 +1,52 @@
+/* Center the main container */
+.app-container {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Buttons styling */
+button {
+    background-color: #00c2ff;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Wallet button styling */
+.wallet-button {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Dynamic section */
+.dynamic-section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #222;
+    box-shadow: 0px 4px 10px rgba(0, 194, 255, 0.3);
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 600px) {
+    button {
+        width: 80%;
+        font-size: 14px;
+    }
+}
